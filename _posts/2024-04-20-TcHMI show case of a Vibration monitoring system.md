@@ -35,4 +35,4 @@ Some features only work on real hardware. *Note: Video of the working HMI on-sit
 
 ---
 
-**Source Code:** [https://github.com/KowalskiPi/Tc3_VN001007_VMS](https://github.com/KowalskiPi/Tc3_VN001007_VMS)
+**Source Code:** [https://github.com/minkhanh-ng/Tc3_VN001007_VMS](https://github.com/minkhanh-ng/Tc3_VN001007_VMS)

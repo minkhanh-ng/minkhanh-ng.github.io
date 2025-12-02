@@ -95,7 +95,7 @@ Section "Device"
 EndSection
 ```
 
-**[10-monitor.conf.txt](https://github.com/KowalskiPi/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/10-monitor.conf.txt)**
+**[10-monitor.conf.txt](https://github.com/minkhanh-ng/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/10-monitor.conf.txt)**
 
 ```text
 Section "Monitor"
@@ -115,7 +115,7 @@ Section "Screen"
 EndSection
 ```
 
-**[30-touchpad.conf.txt](https://github.com/KowalskiPi/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/30-touchpad.conf.txt)**
+**[30-touchpad.conf.txt](https://github.com/minkhanh-ng/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/30-touchpad.conf.txt)**
 
 ```text
 Section "InputClass"
@@ -127,7 +127,7 @@ Section "InputClass"
 EndSection
 ```
 
-**[40-touchscreen.conf.txt](https://github.com/KowalskiPi/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/40-touchscreen.conf.txt)**
+**[40-touchscreen.conf.txt](https://github.com/minkhanh-ng/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/40-touchscreen.conf.txt)**
 
 ```text
 Section "InputClass"
@@ -138,7 +138,7 @@ Section "InputClass"
 EndSection
 ```
 
-**[90-fonts.conf.txt](https://github.com/KowalskiPi/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/90-fonts.conf.txt)**
+**[90-fonts.conf.txt](https://github.com/minkhanh-ng/TcBSD-CP6706-config/blob/main/_usr_local_etc_X11_xorg.conf.d/90-fonts.conf.txt)**
 
 ```text
 Section "Files"
@@ -149,7 +149,7 @@ EndSection
 
 ### System Configuration
 
-**[/boot/loader.conf](https://github.com/KowalskiPi/TcBSD-CP6706-config/tree/main/boot)**
+**[/boot/loader.conf](https://github.com/minkhanh-ng/TcBSD-CP6706-config/tree/main/boot)**
 
 ```properties
 kern.geom.label.disk_ident.enable="0"
@@ -166,7 +166,7 @@ hw.vga.textmode=1
 fdescfs_load="yes"
 ```
 
-**[/etc/fstab](https://github.com/KowalskiPi/TcBSD-CP6706-config/tree/main/etc)**
+**[/etc/fstab](https://github.com/minkhanh-ng/TcBSD-CP6706-config/tree/main/etc)**
 
 ```text
 # Device                Mountpoint      FStype  Options         Dump    Pass#
@@ -176,7 +176,7 @@ proc                    /proc           procfs  rw              0       0
 fdescfs                 /dev/fd         fdescfs rw              0       0
 ```
 
-**[/etc/rc.conf](https://github.com/KowalskiPi/TcBSD-CP6706-config/tree/main/etc)**
+**[/etc/rc.conf](https://github.com/minkhanh-ng/TcBSD-CP6706-config/tree/main/etc)**
 
 ```properties
 #fonts_setting----------
@@ -225,7 +225,7 @@ xrdp_sessman_enable="yes"
 TcHmiSrv_enable="YES"
 ```
 
-**[/etc/ttys](https://github.com/KowalskiPi/TcBSD-CP6706-config/tree/main/etc)**
+**[/etc/ttys](https://github.com/minkhanh-ng/TcBSD-CP6706-config/tree/main/etc)**
 
 ```text
 # name  getty                   type    status          comments
@@ -308,7 +308,7 @@ $ chmod +x /home/SystemUser/.config/openbox/autostart.sh
 
 ## Repository & Resources
 
-  * **GitHub Config Repo:** [https://github.com/KowalskiPi/TcBSD-CP6706-config](https://github.com/KowalskiPi/TcBSD-CP6706-config)
+  * **GitHub Config Repo:** [https://github.com/minkhanh-ng/TcBSD-CP6706-config](https://github.com/minkhanh-ng/TcBSD-CP6706-config)
   * **Video Tutorial:** [TwinCAT/BSD on touch panel & TF2000 on TC/BSD](https://www.youtube.com/watch?v=u-EAIi6sR44)
 
 ---
