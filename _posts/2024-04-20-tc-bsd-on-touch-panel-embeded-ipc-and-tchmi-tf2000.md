@@ -11,13 +11,6 @@ tags:
   - TwinCAT/BSD
 ---
 
-````markdown
----
-layout: post
-title: "Setting up TwinCAT/BSD on CP6706 with GUI and TF2000"
-tags: [TwinCAT, FreeBSD, BSD, CP6706, HMI]
----
-
 <img width="2056" height="1154" alt="image" src="https://github.com/user-attachments/images/a7fbbd4c-5b81-4668-8b31-af269e5cb077.img" />
 
 ## Hardware Info
