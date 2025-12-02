@@ -1,6 +1,6 @@
 ---
 title: 'MPM Field Visualizer: CRAMP Line Crossing Algorithm'
-date: 2015-08-14
+date: 2025-11-02
 permalink: /posts/2025/11/MPM_Field_Visualizer:CRAMP_Line_Crossing_Algorithm
 tags:
   - MPM,
