@@ -107,21 +107,29 @@ After testing the script and generating the geometry, our job is to publish it i
 
 Manually `dim` (dimension) all the necessary parts and change the CAD environment to a white background.
 
-Capture the image using an app like PicPick or Cropper to create three images with different sizes:
+![CAD Dimensioning](https://enginine.wordpress.com/wp-content/uploads/2025/11/6a0167607c2431970b01bb084f4db5970d.png?w=594)
 
-  * `maleConnector_64.png` (64x64)
-  * `maleConnector_200.png` (200x200)
-  * `maleConnector_640.png` (640x640)
+Capture the image using an app like PicPick or Cropper to create three images with different sizes:
+* `maleConnector_64.png` (64x64)
+* `maleConnector_200.png` (200x200)
+* `maleConnector_640.png` (640x640)
+
+![Thumbnail Examples](https://enginine.wordpress.com/wp-content/uploads/2025/11/6a0167607c2431970b01bb084f4db5970dx.png?w=313)
 
 ### Part Creation in Spec Editor
 
 Final step is to launch Spec Editor.
-
 1.  Open an existing CustomCatalog (this is often better than creating a whole new catalog using CatalogBuilder).
 2.  Choose "Create New Component".
 3.  Select our part by choosing the **Group** defined in our Python script (`Coupling`).
 
-Configure the settings and save the catalog. It is now ready-to-use in Plant3D.
+![Spec Editor Selection](https://enginine.wordpress.com/wp-content/uploads/2025/11/6a0167607c2431970b01bb084f4db5970d3.png?w=834)
+
+Setting and save the catalog. Now it ready-to-use in Plant3D.
+
+![Catalog View](https://enginine.wordpress.com/wp-content/uploads/2025/11/6a0167607c2431970b01bb084f4db5970d4.png?w=1024)
+
+![Final Result](https://enginine.wordpress.com/wp-content/uploads/2025/11/6a0167607c2431970b01bb084f4db5970d5.png?w=1024)
 
 -----
 
@@ -230,5 +238,3 @@ def maleConnector(s, D=0.25, D1=0.5625, D31=1.0625, L=1.82, L31=0.6, I1=0, K=1, 
     return
 ```
 
-```
-```
