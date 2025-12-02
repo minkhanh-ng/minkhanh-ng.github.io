@@ -1,6 +1,6 @@
 ---
 title: 'TcHMI show case of a Vibration monitoring system'
-date: 2013-08-14
+date: 2024-04-20
 permalink: /posts/2024/04/20/TcHMI show case of a Vibration monitoring system
 tags:
   - TwinCAT 3
