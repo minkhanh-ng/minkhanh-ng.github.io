@@ -20,14 +20,17 @@ Go around the main pages of the HMI:
 
 ### Component Details
 Component detail values and data can be monitored and modified quickly via pop-ups.
+
 [![Component Details](https://img.youtube.com/vi/JnEGradS4OU/0.jpg)](https://youtu.be/JnEGradS4OU)
 
 ### Other Features
 Additional functionalities included in the project:
+
 [![Other Features](https://img.youtube.com/vi/kOtfw7BJ3sg/0.jpg)](https://youtu.be/kOtfw7BJ3sg)
 
 ### Hardware Implementation
 Some features only work on real hardware. *Note: Video of the working HMI on-site is prohibited.*
+
 ![HMI Animation](https://enginine.wordpress.com/wp-content/uploads/2025/09/media2-ezgif.com-video-to-gif-converter.gif?w=800)
 
 ---
