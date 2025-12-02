@@ -11,9 +11,7 @@ tags:
   - TwinCAT/BSD
 ---
 
-<img width="2056" height="1154" alt="image" src="/images/a7fbbd4c-5b81-4668-8b31-af269e5cb077.JPG" />
-<meta property="og:image" content="/images/a7fbbd4c-5b81-4668-8b31-af269e5cb077.JPG" />
-
+![Banner](https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/images/a7fbbd4c-5b81-4668-8b31-af269e5cb077.JPG)
 
 ## Hardware Info
 
