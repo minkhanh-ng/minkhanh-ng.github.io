@@ -10,12 +10,12 @@ tags:
   - Physics
 ---
 
-# 1. Input
-
 <div style="text-align: center; margin: 20px 0;">
   <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image.png" alt="Test geometry" style="width: 60%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
   <p><em>Img 1.1: Test geometry</em></p>
 </div>
+
+# 1. Input
 
 # 2. Full integration
 Full itegration 2x2 cho for Quad4:
