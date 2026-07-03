@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-Check [All Post](https://minkhanh-ng.github.io/year-archive/) for all post
+Check [All Posts](https://minkhanh-ng.github.io/year-archive/) for all posts.
