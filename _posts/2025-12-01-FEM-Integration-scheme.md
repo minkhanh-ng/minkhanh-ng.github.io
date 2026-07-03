@@ -11,10 +11,14 @@ tags:
 ---
 
 # 1. Input
-![Test geometry](image.png)
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="img/image.png" alt="Test geometry" style="width: 60%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <p><em>Img 1.1: Test geometry</em></p>
+</div>
 
 # 2. Full integration
-Dưới đây là output từ chương trình python, sử dụng phương pháp full itegration 2x2 cho phần tử Quad4:
+Full itegration 2x2 cho for Quad4:
  ```shell
 Processing: Element stiffness matrix, full integration.......
  
@@ -130,33 +134,47 @@ Mode 3: [ 0.      0.      0.0028 -0.0257 -0.0076  0.0268 -0.0115  0.0561  0.    
 Mode 4: [ 0.      0.     -0.0449 -0.0166 -0.0066  0.0266  0.0593 -0.0365  0.      0.     -0.0305 -0.0186 -0.0008  0.0326  0.0076 -0.0201  0.     0.      0.      0.    ]
 ```
 
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 10px; margin: 20px 0;">
+  <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
+    <img src="img/image-4.png" alt="Stress XX" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <p><em>Img 2.2: Stress XX</em></p>
+  </div>
+  <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
+    <img src="img/image-5.png" alt="Stress YY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <p><em>Img 2.3: Stress YY</em></p>
+  </div>
+  <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
+    <img src="img/image-6.png" alt="Stress XY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <p><em>Img 2.4: Stress XY</em></p>
+  </div>
+  <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
+    <img src="img/image-7.png" alt="Strain XX" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <p><em>Img 2.5: Strain XX</em></p>
+  </div>
+  <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
+    <img src="img/image-8.png" alt="Strain YY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <p><em>Img 2.6: Strain YY</em></p>
+  </div>
+  <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
+    <img src="img/image-9.png" alt="Strain XY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <p><em>Img 2.7: Strain XY</em></p>
+  </div>
+</div>
 
-
-
-
-
- 
-Hình 2.2 Ứng suất phương XX![alt text](image-4.png)
- 
-Hình 2.3 Ứng suất chương YY![alt text](image-5.png)
- 
-Hình 2.4 Ứng suất phương XY![alt text](image-6.png)
- 
-Hình 2.5 Biến dạng phương XX![alt text](image-7.png)
- 
-Hình 2.6 Biến dạng phương YY![alt text](image-8.png)
-  
-Hình 2.7 Biến dạng phương XY![alt text](image-9.png)
- 
-Hình 2.8 4 mode shape đầu tiên![alt text](image-10.png)
+<div style="text-align: center; margin: 20px 0;">
+  <img src="img/image-10.png" alt="First 4 mode shapes" style="width: 80%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <p><em>Img 2.8: First 4 mode shapes</em></p>
+</div>
  
-# 3. So sánh kết quả với ANSYS và các đánh giá
- 
- 
-Hình 3.1 Lưới và các điều kiện biện định nghĩa trong ANSYS![alt text](image-11.png)
+# 3. Compare to ANSYS
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="img/image-11.png" alt="Mesh and Boundary condition of ANSYS" style="width: 70%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <p><em>Img 3.1: Mesh and Boundary condition of ANSYS</em></p>
+</div>
 
 ```shell
-Output từ ANSYS:
+Output from ANSYS:
 --- GLOBAL REDUCED STIFFNESS MATRIX ---
 KMATRIXF: 
 [ 1, 1]: 1.511e+11 [ 1, 2]: 0.000e+00 [ 1, 3]: 2.269e+09 [ 1, 4]: 0.000e+00 [ 1, 5]:-5.387e+10 [ 1, 6]: 3.995e+10 [ 1, 7]:-2.284e+10 [ 1, 8]:-4.794e+09 [ 1, 9]: 0.000e+00 [ 1,10]: 0.000e+00 [ 1,11]: 0.000e+00 [ 1,12]: 0.000e+00 
@@ -194,11 +212,12 @@ FMATRIXF:
 4	4.	4487.5	
 ```
 
-Hình 3.2 Các mode shape - ANSYS Program controlled![alt text](image-12.png)
+<div style="text-align: center; margin: 20px 0;">
+  <img src="img/image-12.png" alt="Mode shapes - ANSYS Program controlled" style="width: 80%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <p><em>Img 3.2: Mode shapes - ANSYS Program controlled</em></p>
+</div>
 
-Các kết quả so sánh khác được trình bày chi tiết trong bảng so sánh giữa các phương pháp.
-
-Dưới đây là ma trận độ cứng phần tử xuất từ ANSYS:
+**ANSYS Element stiffness matrix:**
 KMATRIXEBUFFER:
 
 [1,1]: 7.557e+10 [1,2]: 3.995e+10 [1,3]:-2.284e+10 [1,4]: 4.794e+09 [1,5]:-5.387e+10 [1,6]:-3.995e+10 [1,7]: 1.134e+09 [1,8]:-4.794e+09
@@ -221,8 +240,11 @@ FMATRIXF:
 [ 6, 1]: 0.000e+00 [ 7, 1]: 0.000e+00 [ 8, 1]:-4.500e+04 [ 9, 1]: 1.500e+04 [10, 1]: 0.000e+00 
 [11, 1]: 1.500e+04 [12, 1]: 0.000e+00
 
-Từ các output trên có thể thấy được, ma trận độ cứng của ANSYS và python output là khác nhau. Từ đó dẫn đến các kết quả dẫn đến các kết quả tính toán khác nhau giữa phần mềm và code, nguyên nhân chính là bởi ANSYS không dùng full integration như python, mà sử dụng một số phương pháp hiệu chỉnh, như B-Bar, Simplified enhace strain formulation, etc, nhằm mục đích loại bỏ sự ảnh hưởng của volume locking và, hoặc, shear locking đối với các phần tử bậc thấp tuyến tính như Q4.
-Cụ thể trong bài toán này, phần tử được sử dụng là PLANE182, và chương trình tự động lựa chọn phương án Simplified enhanced strain formulation.
+From the outputs above, it is evident that the stiffness matrices from ANSYS and the Python output are different. This discrepancy directly leads to variations in the final computation results between the software and the custom code.
+
+The primary reason is that ANSYS does not employ **full integration** like the Python script does. Instead, it utilizes specialized correction methods—such as **B-Bar** and the **Simplified Enhanced Strain Formulation**—to eliminate the effects of **volumetric locking** and/or **shear locking** that typically plague lower-order linear elements like Q4.
+
+Specifically in this problem, the element type used is **PLANE182**, and the program automatically selects the **Simplified Enhanced Strain Formulation** option.
 
 ```shell
 *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
@@ -242,9 +264,9 @@ ELEMENT TYPE 4 IS PLANE182 WITH PLANE STRAIN OPTION. IT IS ASSOCIATED WITH LINEA
 KEYOPT(1-12)= 3 0 2 0 0 0 0 0 0 0 0 0
 ```
 
-Vì vậy, code python sau đây được thêm vào các hàm nhằm thực hiện các kỹ thuật B-Bar, Selective reduced integration và Incompatible strain nhằm so sánh với kết quả xuất ra từ ANSYS.
+Therefore, the following Python code incorporates functions to implement the **B-Bar**, **Selective Reduced Integration**, and **Incompatible Strain** techniques for comparison with the ANSYS output.
 
-Kết quả ma trận độ cứng phần tử tạo bởi code cho thấy sự trùng khớp với ma trận độ cứng phần tử KMATRIXEBUFFER từ ANSYS:
+The resulting element stiffness matrix generated by the code perfectly matches the **KMATRIXEBUFFER** element stiffness matrix from ANSYS:
 ```shell
 Element 1:
  [[ 7.5570e+10  3.9950e+10 -2.2836e+10  4.7940e+09 -5.3869e+10 -3.9950e+10  1.134e+09 -4.794e+09]
@@ -259,39 +281,45 @@ Element 1:
 
 # 4. Các kết quả của các phương pháp được so sánh dựa trên displacement, stress và strain. 
 
-Bảng 3.1 So sánh displacement giữa ANSYS và các phương pháp sử dụng trong python code
-Directional Deformation (m)	 	 	 	 	 	 
-Nodal original coordinates	ANSYS - Program Control	ANSYS - Manual Control	Code - Full intergration
-Node	X	Y	X	Y	X	Y	X	Y
-1	0	0.4	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
-2	0.3	0.4	2.630E-07	-3.820E-06	2.107E-07	-3.885E-06	1.915E-07	-3.641E-06
-3	0.6	0.4	-9.740E-07	-1.530E-06	-1.139E-06	-1.863E-06	-6.464E-07	-1.332E-06
-4	0.9	0.4	-4.230E-07	5.440E-07	-7.840E-07	9.065E-07	-2.793E-07	3.119E-07
-5	0	0.2	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
-6	0.3	0.2	2.020E-08	-4.200E-06	-1.077E-07	-4.434E-06	2.469E-07	-3.929E-06
-7	0.6	0.2	5.370E-07	-1.010E-06	4.518E-07	-1.159E-06	4.686E-07	-9.054E-07
-8	0.9	0.2	3.040E-07	3.260E-07	3.074E-07	4.757E-07	3.918E-07	1.789E-07
-9	0.6	0	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
-10	0.9	0	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
- 	RMS :	 	0.000E+00	0.000E+00	4.288E-07	5.885E-07	4.437E-07	4.804E-07
+**Table 3.1: Comparing displacement between ANSYS and other methods used in Python code**
 
-Directional Deformation (m) (cont’)
-Nodal original coordinates	Code - Selective Reduced	Code - Bbar	Code - Incompatible
-Node	X	Y	X	Y	X	Y	X	Y
-1	0	0.4	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
-2	0.3	0.4	2.107E-07	-3.885E-06	2.107E-07	-3.885E-06	2.632E-07	-3.821E-06
-3	0.6	0.4	-1.139E-06	-1.863E-06	-1.139E-06	-1.863E-06	-9.736E-07	-1.527E-06
-4	0.9	0.4	-7.840E-07	9.065E-07	-7.840E-07	9.065E-07	-4.225E-07	5.442E-07
-5	0	0.2	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
-6	0.3	0.2	-1.077E-07	-4.434E-06	-1.077E-07	-4.434E-06	2.024E-08	-4.197E-06
-7	0.6	0.2	4.518E-07	-1.159E-06	4.518E-07	-1.159E-06	5.373E-07	-1.012E-06
-8	0.9	0.2	3.074E-07	4.757E-07	3.074E-07	4.757E-07	3.042E-07	3.263E-07
-9	0.6	0	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
-10	0.9	0	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00	0.000E+00
- 	RMS :	 	4.288E-07	5.885E-07	4.288E-07	5.885E-07	7.605E-10	4.736E-09
+*Directional Deformation (m) - Part 1*
 
-Bởi vì bản chất B-Bar và Selective reduced integration có phần giống nhau, đồng thời kết quả cho ra tương tự nhau, nên các so sánh sẽ chỉ sử dụng B-Bar thay cho cả hai phương pháp.
-ANSYS – Manual Control là phương án “ép’ ANSYS sử dụng phương pháp khác ngoài phương pháp tự động sử dụng bởi chương trình, ở đây là B-Bar integration. (ANSYS và các phần mềm FEM thương mại, khi nhắc đến full integration đều là B-Bar, không phải thực sự là full integration). Xem thêm phụ lục để biết các setting đã dùng trong ANSYS.
+| **Node** | **Orig X** | **Orig Y** | **ANSYS Prog X** | **ANSYS Prog Y** | **ANSYS Man X** | **ANSYS Man Y** | **Python Full X** | **Python Full Y** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 0.0 | 0.4 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| 2 | 0.3 | 0.4 | 2.630E-07 | -3.820E-06 | 2.107E-07 | -3.885E-06 | 1.915E-07 | -3.641E-06 |
+| 3 | 0.6 | 0.4 | -9.740E-07 | -1.530E-06 | -1.139E-06 | -1.863E-06 | -6.464E-07 | -1.332E-06 |
+| 4 | 0.9 | 0.4 | -4.230E-07 | 5.440E-07 | -7.840E-07 | 9.065E-07 | -2.793E-07 | 3.119E-07 |
+| 5 | 0.0 | 0.2 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| 6 | 0.3 | 0.2 | 2.020E-08 | -4.200E-06 | -1.077E-07 | -4.434E-06 | 2.469E-07 | -3.929E-06 |
+| 7 | 0.6 | 0.2 | 5.370E-07 | -1.010E-06 | 4.518E-07 | -1.159E-06 | 4.686E-07 | -9.054E-07 |
+| 8 | 0.9 | 0.2 | 3.040E-07 | 3.260E-07 | 3.074E-07 | 4.757E-07 | 3.918E-07 | 1.789E-07 |
+| 9 | 0.6 | 0.0 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| 10 | 0.9 | 0.0 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| | **RMS:** | | 0.000E+00 | 0.000E+00 | 4.288E-07 | 5.885E-07 | 4.437E-07 | 4.804E-07 |
+
+<br/>
+
+*Directional Deformation (m) (cont’) - Part 2*
+
+| **Node** | **Orig X** | **Orig Y** | **Python SelRed X** | **Python SelRed Y** | **Python B-Bar X** | **Python B-Bar Y** | **Python Incomp X** | **Python Incomp Y** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 0.0 | 0.4 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| 2 | 0.3 | 0.4 | 2.107E-07 | -3.885E-06 | 2.107E-07 | -3.885E-06 | 2.632E-07 | -3.821E-06 |
+| 3 | 0.6 | 0.4 | -1.139E-06 | -1.863E-06 | -1.139E-06 | -1.863E-06 | -9.736E-07 | -1.527E-06 |
+| 4 | 0.9 | 0.4 | -7.840E-07 | 9.065E-07 | -7.840E-07 | 9.065E-07 | -4.225E-07 | 5.442E-07 |
+| 5 | 0.0 | 0.2 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| 6 | 0.3 | 0.2 | -1.077E-07 | -4.434E-06 | -1.077E-07 | -4.434E-06 | 2.024E-08 | -4.197E-06 |
+| 7 | 0.6 | 0.2 | 4.518E-07 | -1.159E-06 | 4.518E-07 | -1.159E-06 | 5.373E-07 | -1.012E-06 |
+| 8 | 0.9 | 0.2 | 3.074E-07 | 4.757E-07 | 3.074E-07 | 4.757E-07 | 3.042E-07 | 3.263E-07 |
+| 9 | 0.6 | 0.0 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| 10 | 0.9 | 0.0 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 | 0.000E+00 |
+| | **RMS:** | | 4.288E-07 | 5.885E-07 | 4.288E-07 | 5.885E-07 | 7.605E-10 | 4.736E-09 |
+
+Since the **B-Bar** method and **Selective Reduced Integration** are fundamentally similar and yield nearly identical results, the subsequent comparisons will only use **B-Bar** to represent both approaches.
+
+**ANSYS – Manual Control** is an option used to "force" ANSYS into using a method other than its default automatic selection—in this case, **B-Bar integration**. (It is worth noting that in ANSYS and other commercial FEM software, references to "**full integration**" typically imply **B-Bar**, rather than true full integration). Please refer to Appendices for the specific settings used in ANSYS.
 
 ```shell
 --- ANSYS OUTPUT – MANUAL CONTROL – KEYOPT(1) = 0 -----------------------------------------------
@@ -329,96 +357,109 @@ Element 1:
  [-4.7940e+09 -8.7269e+10  3.9950e+10 -8.5316e+10  4.7940e+09  6.1879e+10 -3.995e+10  1.107e+11]]
 ```
 
-Quan sát bảng so sánh displacement và ma trận độ cứng phần tử của 2 phương pháp cho thấy sự trùng khớp giữa hai kết quả, cho thấy phương pháp sử dụng bởi ANSYS tương đương với phương pháp đề cập trong code python.
+An examination of the table comparing the displacements and element stiffness matrices of the two methods reveals a perfect match between the results, demonstrating that the method utilized by ANSYS is equivalent to the one implemented in the Python code.
 
-Bảng 3.2 So sánh stress giữa ANSYS và các phương pháp sử dụng trong python code
-Integration point results - stresses	 	 	 	 
-Points	 	ANSYS - Program Control	 	Code - Full intergration	 
-Element	Point	Stress X	Stress Y	Stress XY	Stress X	Stress Y	Stress XY
-1	1	1.472E+05	1.526E+05	-8.969E+05	2.076E+05	1.401E+05	-9.107E+05
-1	2	1.472E+05	3.645E+05	-8.969E+05	2.820E+05	3.313E+05	-9.220E+05
-1	3	2.385E+05	3.645E+05	-8.969E+05	2.574E+05	3.218E+05	-8.830E+05
-1	4	2.385E+05	1.526E+05	-8.969E+05	1.831E+05	1.306E+05	-8.718E+05
-2	1	2.246E+04	6.378E+04	4.191E+05	5.949E+04	1.567E+05	5.750E+05
-2	2	2.246E+04	-4.386E+05	4.191E+05	-1.252E+05	-3.182E+05	3.600E+05
-2	3	-6.368E+05	-4.386E+05	4.191E+05	-5.944E+05	-5.007E+05	2.632E+05
-2	4	-6.368E+05	6.378E+04	4.191E+05	-4.098E+05	-2.581E+04	4.783E+05
-3	1	-9.189E+04	-3.302E+05	6.273E+03	-1.251E+05	-3.501E+05	-7.716E+04
-3	2	-9.189E+04	8.316E+04	6.273E+03	1.960E+04	2.196E+04	1.294E+04
-3	3	2.029E+05	8.316E+04	6.273E+03	2.162E+05	9.841E+04	8.874E+04
-3	4	2.029E+05	-3.302E+05	6.273E+03	7.150E+04	-2.737E+05	-1.368E+03
-4	1	-1.991E+05	-8.068E+05	3.048E+05	-3.150E+05	-7.829E+05	2.128E+05
-4	2	-1.991E+05	-5.207E+04	3.048E+05	-3.494E+04	-6.267E+04	1.972E+05
-4	3	-2.867E+05	-5.207E+04	3.048E+05	-6.896E+04	-7.590E+04	3.439E+05
-4	4	-2.867E+05	-8.068E+05	3.048E+05	-3.491E+05	-7.962E+05	3.595E+05
- 	RMS :	0.000E+00	0.000E+00	0.000E+00	4.738E+05	2.179E+05	3.093E+05
+**Table 3.2: Comparing stress (Pa) between ANSYS and other methods used in Python code**
 
- Integration point results – stresses (cont’)
-Points	 	Code - Bbar	 	 	Code - Incompatible	 
-Element	Point	Stress X	Stress Y	Stress XY	Stress X	Stress Y	Stress XY
-1	1	1.967E+05	2.973E+05	-9.884E+05	1.472E+05	1.526E+05	-8.969E+05
-1	2	8.513E+04	4.088E+05	-9.238E+05	1.472E+05	3.645E+05	-8.969E+05
-1	3	1.282E+05	3.657E+05	-8.494E+05	2.385E+05	3.645E+05	-8.969E+05
-1	4	2.398E+05	2.542E+05	-9.141E+05	2.385E+05	1.526E+05	-8.969E+05
-2	1	-3.357E+05	-2.087E+05	6.757E+05	2.246E+04	6.378E+04	4.191E+05
-2	2	-8.116E+04	-4.632E+05	2.882E+05	2.246E+04	-4.386E+05	4.191E+05
-2	3	-3.395E+05	-2.049E+05	1.185E+05	-6.368E+05	-4.386E+05	4.191E+05
-2	4	-5.940E+05	4.960E+04	5.060E+05	-6.368E+05	6.378E+04	4.191E+05
-3	1	1.010E+05	-2.073E+05	-8.269E+04	-9.189E+04	-3.301E+05	6.273E+03
-3	2	-1.294E+05	2.306E+04	1.860E+04	-9.189E+04	8.316E+04	6.273E+03
-3	3	-6.192E+04	-4.447E+04	1.722E+05	2.029E+05	8.316E+04	6.273E+03
-3	4	1.685E+05	-2.749E+05	7.091E+04	2.029E+05	-3.301E+05	6.273E+03
-4	1	-3.259E+04	-5.904E+05	2.291E+05	-1.991E+05	-8.068E+05	3.048E+05
-4	2	-3.644E+05	-2.586E+05	1.998E+05	-1.991E+05	-5.207E+04	3.048E+05
-4	3	-3.839E+05	-2.390E+05	4.210E+05	-2.867E+05	-5.207E+04	3.048E+05
-4	4	-5.212E+04	-5.709E+05	4.503E+05	-2.867E+05	-8.068E+05	3.048E+05
- 	RMS :	6.908E+05	6.172E+05	5.326E+05	1.353E+01	9.500E+00	9.710E+00
+*Integration point results - stresses (Part 1)*
 
+| **Element** | **Gauss Point** | **ANSYS Prog $\sigma_{xx}$** | **ANSYS Prog $\sigma_{yy}$** | **ANSYS Prog $\sigma_{xy}$** | **Python Full $\sigma_{xx}$** | **Python Full $\sigma_{yy}$** | **Python Full $\sigma_{xy}$** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 1 | 1.472E+05 | 1.526E+05 | -8.969E+05 | 2.076E+05 | 1.401E+05 | -9.107E+05 |
+| 1 | 2 | 1.472E+05 | 3.645E+05 | -8.969E+05 | 2.820E+05 | 3.313E+05 | -9.220E+05 |
+| 1 | 3 | 2.385E+05 | 3.645E+05 | -8.969E+05 | 2.574E+05 | 3.218E+05 | -8.830E+05 |
+| 1 | 4 | 2.385E+05 | 1.526E+05 | -8.969E+05 | 1.831E+05 | 1.306E+05 | -8.718E+05 |
+| 2 | 1 | 2.246E+04 | 6.378E+04 | 4.191E+05 | 5.949E+04 | 1.567E+05 | 5.750E+05 |
+| 2 | 2 | 2.246E+04 | -4.386E+05 | 4.191E+05 | -1.252E+05 | -3.182E+05 | 3.600E+05 |
+| 2 | 3 | -6.368E+05 | -4.386E+05 | 4.191E+05 | -5.944E+05 | -5.007E+05 | 2.632E+05 |
+| 2 | 4 | -6.368E+05 | 6.378E+04 | 4.191E+05 | -4.098E+05 | -2.581E+04 | 4.783E+05 |
+| 3 | 1 | -9.189E+04 | -3.302E+05 | 6.273E+03 | -1.251E+05 | -3.501E+05 | -7.716E+04 |
+| 3 | 2 | -9.189E+04 | 8.316E+04 | 6.273E+03 | 1.960E+04 | 2.196E+04 | 1.294E+04 |
+| 3 | 3 | 2.029E+05 | 8.316E+04 | 6.273E+03 | 2.162E+05 | 9.841E+04 | 8.874E+04 |
+| 3 | 4 | 2.029E+05 | -3.302E+05 | 6.273E+03 | 7.150E+04 | -2.737E+05 | -1.368E+03 |
+| 4 | 1 | -1.991E+05 | -8.068E+05 | 3.048E+05 | -3.150E+05 | -7.829E+05 | 2.128E+05 |
+| 4 | 2 | -1.991E+05 | -5.207E+04 | 3.048E+05 | -3.494E+04 | -6.267E+04 | 1.972E+05 |
+| 4 | 3 | -2.867E+05 | -5.207E+04 | 3.048E+05 | -6.896E+04 | -7.590E+04 | 3.439E+05 |
+| 4 | 4 | -2.867E+05 | -8.068E+05 | 3.048E+05 | -3.491E+05 | -7.962E+05 | 3.595E+05 |
+| | **RMS:** | 0.000E+00 | 0.000E+00 | 0.000E+00 | 4.738E+05 | 2.179E+05 | 3.093E+05 |
 
-Bảng 3.3 So sánh strain giữa ANSYS và các phương pháp sử dụng trong python code
-Integration point results - strains	 	 	 	 	 
-Points	 	ANSYS - Program Control	 	Code - Full intergration	 
-Element	Point	Strain X	Strain Y	Strain XY	Strain X	Strain Y	Strain XY
-1	1	4.497E-07	4.881E-07	-1.276E-05	7.840E-07	3.041E-07	-1.295E-05
-1	2	2.762E-08	1.573E-06	-1.276E-05	7.840E-07	1.135E-06	-1.311E-05
-1	3	4.952E-07	1.392E-06	-1.276E-05	6.773E-07	1.135E-06	-1.256E-05
-1	4	9.173E-07	3.063E-07	-1.276E-05	6.773E-07	3.041E-07	-1.240E-05
-2	1	-1.202E-08	2.819E-07	5.961E-06	-7.362E-09	6.837E-07	8.178E-06
-2	2	9.883E-07	-2.290E-06	5.961E-06	-7.362E-09	-1.380E-06	5.120E-06
-2	3	-2.387E-06	-9.776E-07	5.961E-06	-2.047E-06	-1.380E-06	3.744E-06
-2	4	-3.388E-06	1.595E-06	5.961E-06	-2.047E-06	6.837E-07	6.803E-06
-3	1	1.869E-07	-1.507E-06	8.921E-08	5.665E-08	-1.544E-06	-1.097E-06
-3	2	-6.361E-07	6.088E-07	8.921E-08	5.665E-08	7.339E-08	1.841E-07
-3	3	8.732E-07	2.181E-08	8.921E-08	9.110E-07	7.339E-08	1.262E-06
-3	4	1.696E-06	-2.094E-06	8.921E-08	9.110E-07	-1.544E-06	-1.945E-08
-4	1	5.871E-07	-3.734E-06	4.335E-06	-5.411E-08	-3.381E-06	3.026E-06
-4	2	-9.155E-07	1.298E-07	4.335E-06	-5.411E-08	-2.513E-07	2.804E-06
-4	3	-1.364E-06	3.042E-07	4.335E-06	-2.019E-07	-2.513E-07	4.891E-06
-4	4	1.385E-07	-3.560E-06	4.335E-06	-2.019E-07	-3.381E-06	5.113E-06
- 	RMS :	0.000E+00	0.000E+00	0.000E+00	2.723E-06	1.865E-06	4.400E-06
+<br/>
 
-Integration point results – strains (cont’)
-Points	 	Code - Bbar	 	 	Code - Incompatible	 
-Element	Point	Strain X	Strain Y	Strain XY	Strain X	Strain Y	Strain XY
-1	1	4.150E-07	1.131E-06	-1.406E-05	4.497E-07	4.881E-07	-1.276E-05
-1	2	-3.782E-07	1.924E-06	-1.314E-05	2.762E-08	1.573E-06	-1.276E-05
-1	3	-7.180E-08	1.617E-06	-1.208E-05	4.952E-07	1.392E-06	-1.276E-05
-1	4	7.214E-07	8.241E-07	-1.300E-05	9.173E-07	3.063E-07	-1.276E-05
-2	1	-1.303E-06	-4.002E-07	9.609E-06	-1.202E-08	2.818E-07	5.961E-06
-2	2	5.068E-07	-2.210E-06	4.099E-06	9.883E-07	-2.290E-06	5.961E-06
-2	3	-1.330E-06	-3.732E-07	1.686E-06	-2.387E-06	-9.776E-07	5.961E-06
-2	4	-3.140E-06	1.437E-06	7.196E-06	-3.388E-06	1.595E-06	5.961E-06
-3	1	9.297E-07	-1.263E-06	-1.176E-06	1.869E-07	-1.507E-06	8.921E-08
-3	2	-7.087E-07	3.758E-07	2.645E-07	-6.361E-07	6.088E-07	8.921E-08
-3	3	-2.285E-07	-1.044E-07	2.449E-06	8.732E-07	2.181E-08	8.921E-08
-3	4	1.410E-06	-1.743E-06	1.008E-06	1.696E-06	-2.094E-06	8.921E-08
-4	1	1.009E-06	-2.958E-06	3.258E-06	5.871E-07	-3.734E-06	4.335E-06
-4	2	-1.351E-06	-5.983E-07	2.841E-06	-9.155E-07	1.298E-07	4.335E-06
-4	3	-1.490E-06	-4.594E-07	5.988E-06	-1.364E-06	3.042E-07	4.335E-06
-4	4	8.699E-07	-2.819E-06	6.404E-06	1.385E-07	-3.560E-06	4.335E-06
- 	RMS :	2.525E-06	2.058E-06	7.575E-06	5.788E-11	7.940E-11	9.619E-11
+*Integration point results – stresses (cont’) (Part 2)*
 
-Kết quả so sánh chỉ ra rằng ANSYS và python cho ra các kết quả tương tự nhau khi áp dụng các kỹ thuật khác ngoài full integration. Việc sử dụng full integration thuần túy rõ ràng là một cách tiếp cận phù hợp đối với mục đích họp tập FEM, tuy nhiên đối với các bài toán thực tế khi kể đến nguy cơ về volume locking, shear locking hay không mô tả đúng ứng xử của các phần tử chịu uốn thuần túy mà không cần thiết tăng số lượng lưới hay tăng bậc phần tử, thì B-Bar hay Incompatible là được lựa chọn rộng rãi, đặc biệt trong các phần mềm FEM công nghiệp như ANSYS.
+| **Element** | **Gauss Point** | **Python B-Bar $\sigma_{xx}$** | **Python B-Bar $\sigma_{yy}$** | **Python B-Bar $\sigma_{xy}$** | **Python Incomp $\sigma_{xx}$** | **Python Incomp $\sigma_{yy}$** | **Python Incomp $\sigma_{xy}$** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 1 | 1.967E+05 | 2.973E+05 | -9.884E+05 | 1.472E+05 | 1.526E+05 | -8.969E+05 |
+| 1 | 2 | 8.513E+04 | 4.088E+05 | -9.238E+05 | 1.472E+05 | 3.645E+05 | -8.969E+05 |
+| 1 | 3 | 1.282E+05 | 3.657E+05 | -8.494E+05 | 2.385E+05 | 3.645E+05 | -8.969E+05 |
+| 1 | 4 | 2.398E+05 | 2.542E+05 | -9.141E+05 | 2.385E+05 | 1.526E+05 | -8.969E+05 |
+| 2 | 1 | -3.357E+05 | -2.087E+05 | 6.757E+05 | 2.246E+04 | 6.378E+04 | 4.191E+05 |
+| 2 | 2 | -8.116E+04 | -4.632E+05 | 2.882E+05 | 2.246E+04 | -4.386E+05 | 4.191E+05 |
+| 2 | 3 | -3.395E+05 | -2.049E+05 | 1.185E+05 | -6.368E+05 | -4.386E+05 | 4.191E+05 |
+| 2 | 4 | -5.940E+05 | 4.960E+04 | 5.060E+05 | -6.368E+05 | 6.378E+04 | 4.191E+05 |
+| 3 | 1 | 1.010E+05 | -2.073E+05 | -8.269E+04 | -9.189E+04 | -3.301E+05 | 6.273E+03 |
+| 3 | 2 | -1.294E+05 | 2.306E+04 | 1.860E+04 | -9.189E+04 | 8.316E+04 | 6.273E+03 |
+| 3 | 3 | -6.192E+04 | -4.447E+04 | 1.722E+05 | 2.029E+05 | 8.316E+04 | 6.273E+03 |
+| 3 | 4 | 1.685E+05 | -2.749E+05 | 7.091E+04 | 2.029E+05 | -3.301E+05 | 6.273E+03 |
+| 4 | 1 | -3.259E+04 | -5.904E+05 | 2.291E+05 | -1.991E+05 | -8.068E+05 | 3.048E+05 |
+| 4 | 2 | -3.644E+05 | -2.586E+05 | 1.998E+05 | -1.991E+05 | -5.207E+04 | 3.048E+05 |
+| 4 | 3 | -3.839E+05 | -2.390E+05 | 4.210E+05 | -2.867E+05 | -5.207E+04 | 3.048E+05 |
+| 4 | 4 | -5.212E+04 | -5.709E+05 | 4.503E+05 | -2.867E+05 | -8.068E+05 | 3.048E+05 |
+| | **RMS:** | 6.908E+05 | 6.172E+05 | 5.326E+05 | 1.353E+01 | 9.500E+00 | 9.710E+00 |
+
+<br/>
+
+**Table 3.3: Comparing strain between ANSYS and other methods used in Python code**
+
+*Integration point results - strains (Part 1)*
+
+| **Element** | **Gauss Point** | **ANSYS Prog $\varepsilon_{xx}$** | **ANSYS Prog $\varepsilon_{yy}$** | **ANSYS Prog $\varepsilon_{xy}$** | **Python Full $\varepsilon_{xx}$** | **Python Full $\varepsilon_{yy}$** | **Python Full $\varepsilon_{xy}$** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 1 | 4.497E-07 | 4.881E-07 | -1.276E-05 | 7.840E-07 | 3.041E-07 | -1.295E-05 |
+| 1 | 2 | 2.762E-08 | 1.573E-06 | -1.276E-05 | 7.840E-07 | 1.135E-06 | -1.311E-05 |
+| 1 | 3 | 4.952E-07 | 1.392E-06 | -1.276E-05 | 6.773E-07 | 1.135E-06 | -1.256E-05 |
+| 1 | 4 | 9.173E-07 | 3.063E-07 | -1.276E-05 | 6.773E-07 | 3.041E-07 | -1.240E-05 |
+| 2 | 1 | -1.202E-08 | 2.819E-07 | 5.961E-06 | -7.362E-09 | 6.837E-07 | 8.178E-06 |
+| 2 | 2 | 9.883E-07 | -2.290E-06 | 5.961E-06 | -7.362E-09 | -1.380E-06 | 5.120E-06 |
+| 2 | 3 | -2.387E-06 | -9.776E-07 | 5.961E-06 | -2.047E-06 | -1.380E-06 | 3.744E-06 |
+| 2 | 4 | -3.388E-06 | 1.595E-06 | 5.961E-06 | -2.047E-06 | 6.837E-07 | 6.803E-06 |
+| 3 | 1 | 1.869E-07 | -1.507E-06 | 8.921E-08 | 5.665E-08 | -1.544E-06 | -1.097E-06 |
+| 3 | 2 | -6.361E-07 | 6.088E-07 | 8.921E-08 | 5.665E-08 | 7.339E-08 | 1.841E-07 |
+| 3 | 3 | 8.732E-07 | 2.181E-08 | 8.921E-08 | 9.110E-07 | 7.339E-08 | 1.262E-06 |
+| 3 | 4 | 1.696E-06 | -2.094E-06 | 8.921E-08 | 9.110E-07 | -1.544E-06 | -1.945E-08 |
+| 4 | 1 | 5.871E-07 | -3.734E-06 | 4.335E-06 | -5.411E-08 | -3.381E-06 | 3.026E-06 |
+| 4 | 2 | -9.155E-07 | 1.298E-07 | 4.335E-06 | -5.411E-08 | -2.513E-07 | 2.804E-06 |
+| 4 | 3 | -1.364E-06 | 3.042E-07 | 4.335E-06 | -2.019E-07 | -2.513E-07 | 4.891E-06 |
+| 4 | 4 | 1.385E-07 | -3.560E-06 | 4.335E-06 | -2.019E-07 | -3.381E-06 | 5.113E-06 |
+| | **RMS:** | 0.000E+00 | 0.000E+00 | 0.000E+00 | 2.723E-06 | 1.865E-06 | 4.400E-06 |
+
+<br/>
+
+*Integration point results – strains (cont’) (Part 2)*
+
+| **Element** | **Gauss Point** | **Python B-Bar $\varepsilon_{xx}$** | **Python B-Bar $\varepsilon_{yy}$** | **Python B-Bar $\varepsilon_{xy}$** | **Python Incomp $\varepsilon_{xx}$** | **Python Incomp $\varepsilon_{yy}$** | **Python Incomp $\varepsilon_{xy}$** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 1 | 4.150E-07 | 1.131E-06 | -1.406E-05 | 4.497E-07 | 4.881E-07 | -1.276E-05 |
+| 1 | 2 | -3.782E-07 | 1.924E-06 | -1.314E-05 | 2.762E-08 | 1.573E-06 | -1.276E-05 |
+| 1 | 3 | -7.180E-08 | 1.617E-06 | -1.208E-05 | 4.952E-07 | 1.392E-06 | -1.276E-05 |
+| 1 | 4 | 7.214E-07 | 8.241E-07 | -1.300E-05 | 9.173E-07 | 3.063E-07 | -1.276E-05 |
+| 2 | 1 | -1.303E-06 | -4.002E-07 | 9.609E-06 | -1.202E-08 | 2.819E-07 | 5.961E-06 |
+| 2 | 2 | 5.068E-07 | -2.210E-06 | 4.099E-06 | 9.883E-07 | -2.290E-06 | 5.961E-06 |
+| 2 | 3 | -1.330E-06 | -3.732E-07 | 1.686E-06 | -2.387E-06 | -9.776E-07 | 5.961E-06 |
+| 2 | 4 | -3.140E-06 | 1.437E-06 | 7.196E-06 | -3.388E-06 | 1.595E-06 | 5.961E-06 |
+| 3 | 1 | 9.297E-07 | -1.263E-06 | -1.176E-06 | 1.869E-07 | -1.507E-06 | 8.921E-08 |
+| 3 | 2 | -7.087E-07 | 3.758E-07 | 2.645E-07 | -6.361E-07 | 6.088E-07 | 8.921E-08 |
+| 3 | 3 | -2.285E-07 | -1.044E-07 | 2.449E-06 | 8.732E-07 | 2.181E-08 | 8.921E-08 |
+| 3 | 4 | 1.410E-06 | -1.743E-06 | 1.008E-06 | 1.696E-06 | -2.094E-06 | 8.921E-08 |
+| 4 | 1 | 1.009E-06 | -2.958E-06 | 3.258E-06 | 5.871E-07 | -3.734E-06 | 4.335E-06 |
+| 4 | 2 | -1.351E-06 | -5.983E-07 | 2.841E-06 | -9.155E-07 | 1.298E-07 | 4.335E-06 |
+| 4 | 3 | -1.490E-06 | -4.594E-07 | 5.988E-06 | -1.364E-06 | 3.042E-07 | 4.335E-06 |
+| 4 | 4 | 8.699E-07 | -2.819E-06 | 6.404E-06 | 1.385E-07 | -3.560E-06 | 4.335E-06 |
+| | **RMS:** | 2.525E-06 | 2.058E-06 | 7.575E-06 | 5.788E-11 | 7.940E-11 | 9.619E-11 |
+
+The comparison results indicate that ANSYS and Python yield similar results when techniques other than full integration are applied.
+
+While using pure **full integration** is clearly a suitable approach for educational and learning purposes in FEM, it falls short in practical applications. For real-world engineering problems—where risks of **volumetric locking**, **shear locking**, or the inability to accurately capture pure bending behavior must be addressed without unnecessarily refining the mesh or increasing the element order—techniques like **B-Bar** or **Incompatible Strain** are widely preferred, particularly in commercial FEM software like ANSYS.
 
 # ANNEX A. Selective Reuced Integration
 ```python
@@ -856,7 +897,14 @@ ERESX, YES       ! YES/NO: Extrapolate/No-extrapolate, assign integration points
 
 **Export ma trận độ cứng và ma trận khối lượng:**
 
-![alt text](image-13.png){: width="50%"}![alt text](image-14.png){: width="50%"}
+<div style="display: flex; justify-content: space-around; gap: 10px; margin: 20px 0;">
+  <div style="flex: 1; text-align: center;">
+    <img src="img/image-13.png" alt="Export stiffness matrix" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="img/image-14.png" alt="Export mass matrix" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  </div>
+</div>
 
 ```fortran
 !   Commands inserted into this file will be executed immediately after the ANSYS /POST1 command.
@@ -891,5 +939,7 @@ ERESX, YES       ! YES/NO: Extrapolate/No-extrapolate, assign integration points
 ```
 
 # ANNEX E. Kết quả ngoại suy – Full integration
- 
-![alt text](image-15.png)
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="img/image-15.png" alt="Kết quả ngoại suy – Full integration" style="width: 75%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+</div>
