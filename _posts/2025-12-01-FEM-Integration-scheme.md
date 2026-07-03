@@ -13,7 +13,7 @@ tags:
 # 1. Input
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="img/image.png" alt="Test geometry" style="width: 60%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image.png" alt="Test geometry" style="width: 60%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
   <p><em>Img 1.1: Test geometry</em></p>
 </div>
 
@@ -136,40 +136,40 @@ Mode 4: [ 0.      0.     -0.0449 -0.0166 -0.0066  0.0266  0.0593 -0.0365  0.    
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 10px; margin: 20px 0;">
   <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
-    <img src="img/image-4.png" alt="Stress XX" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-4.png" alt="Stress XX" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
     <p><em>Img 2.2: Stress XX</em></p>
   </div>
   <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
-    <img src="img/image-5.png" alt="Stress YY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-5.png" alt="Stress YY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
     <p><em>Img 2.3: Stress YY</em></p>
   </div>
   <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
-    <img src="img/image-6.png" alt="Stress XY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-6.png" alt="Stress XY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
     <p><em>Img 2.4: Stress XY</em></p>
   </div>
   <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
-    <img src="img/image-7.png" alt="Strain XX" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-7.png" alt="Strain XX" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
     <p><em>Img 2.5: Strain XX</em></p>
   </div>
   <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
-    <img src="img/image-8.png" alt="Strain YY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-8.png" alt="Strain YY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
     <p><em>Img 2.6: Strain YY</em></p>
   </div>
   <div style="flex: 1 1 45%; max-width: 48%; text-align: center;">
-    <img src="img/image-9.png" alt="Strain XY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-9.png" alt="Strain XY" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
     <p><em>Img 2.7: Strain XY</em></p>
   </div>
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="img/image-10.png" alt="First 4 mode shapes" style="width: 80%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-10.png" alt="First 4 mode shapes" style="width: 80%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
   <p><em>Img 2.8: First 4 mode shapes</em></p>
 </div>
  
 # 3. Compare to ANSYS
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="img/image-11.png" alt="Mesh and Boundary condition of ANSYS" style="width: 70%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-11.png" alt="Mesh and Boundary condition of ANSYS" style="width: 70%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
   <p><em>Img 3.1: Mesh and Boundary condition of ANSYS</em></p>
 </div>
 
@@ -213,7 +213,7 @@ FMATRIXF:
 ```
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="img/image-12.png" alt="Mode shapes - ANSYS Program controlled" style="width: 80%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-12.png" alt="Mode shapes - ANSYS Program controlled" style="width: 80%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
   <p><em>Img 3.2: Mode shapes - ANSYS Program controlled</em></p>
 </div>
 
@@ -899,10 +899,10 @@ ERESX, YES       ! YES/NO: Extrapolate/No-extrapolate, assign integration points
 
 <div style="display: flex; justify-content: space-around; gap: 10px; margin: 20px 0;">
   <div style="flex: 1; text-align: center;">
-    <img src="img/image-13.png" alt="Export stiffness matrix" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-13.png" alt="Export stiffness matrix" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="img/image-14.png" alt="Export mass matrix" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+    <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-14.png" alt="Export mass matrix" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
   </div>
 </div>
 
@@ -941,5 +941,5 @@ ERESX, YES       ! YES/NO: Extrapolate/No-extrapolate, assign integration points
 # ANNEX E. Kết quả ngoại suy – Full integration
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="img/image-15.png" alt="Kết quả ngoại suy – Full integration" style="width: 75%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
+  <img src="https://raw.githubusercontent.com/minkhanh-ng/minkhanh-ng.github.io/refs/heads/master/_posts/2025/12/img/image-15.png" alt="Kết quả ngoại suy – Full integration" style="width: 75%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"/>
 </div>
